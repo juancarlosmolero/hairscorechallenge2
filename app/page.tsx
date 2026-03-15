@@ -1,4 +1,5 @@
-export default function Home() {
+import UploadPhoto from "../components/UploadPhoto"
+  export default function Home() {
   return (
     <main style={{
       textAlign: "center",
@@ -15,7 +16,7 @@ export default function Home() {
       <p style={{fontSize:"22px", marginTop:"20px"}}>
         Upload your hairline and let the internet judge you.
       </p>
-
+      <UploadPhoto />
       <button style={{
         marginTop:"40px",
         padding:"20px 40px",
